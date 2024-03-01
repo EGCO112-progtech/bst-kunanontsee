@@ -139,11 +139,10 @@ void PaintTree(TreeNodePtr treePtr, int l)
 {
    if(treePtr)
    {
-      l += 5;
-
+      l++;
       PaintTree(treePtr->rightPtr, l);
 
-      for(int i=5; i<l; i++)
+      for(int i=0; i<l; i++)
       {
          printf("   ");
       }
