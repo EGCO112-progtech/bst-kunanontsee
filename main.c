@@ -26,7 +26,7 @@ for ( i = 1; i < argc; ++i ) {
    // traverse the tree postOrder
    printf("\npostOrder\n" );   
    postOrder( b.root );
-   printf("\n-----------------------------------------------------------------\n");
+   printf("\n");
 
    PaintTree(b.root, 0);
 
