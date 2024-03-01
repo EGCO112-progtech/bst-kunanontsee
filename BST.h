@@ -142,12 +142,12 @@ void PaintTree(TreeNodePtr treePtr, int l)
       l++;
       PaintTree(treePtr->rightPtr, l);
 
-      for(int i=0; i<l; i++)
+      for(int i=1; i<l; i++)
       {
          printf("   ");
       }
 
-      printf("%d\n", treePtr->data);
+      printf("%3d\n", treePtr->data);
       
       PaintTree(treePtr->leftPtr, l);
    }
